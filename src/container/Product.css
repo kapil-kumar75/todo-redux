@@ -1,0 +1,12 @@
+.ui.fixed.menu + .ui.grid {
+  padding-top: 5.75rem;
+}
+.ui.grid > .column:not(.row),
+.ui.grid > .row > .column {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: top;
+}
